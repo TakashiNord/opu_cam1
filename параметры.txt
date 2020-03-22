@@ -1,0 +1,77 @@
+
+/*
+typedef enum UF_PARAM_motion_output_e
+{
+    UF_PARAM_motion_output_linear_only = -1,
+    UF_PARAM_motion_output_cir_perp_to_taxis = 0,
+    UF_PARAM_motion_output_cir_perp_parallel_to_taxis = 1,
+    UF_PARAM_motion_output_nurbs = 2
+} UF_PARAM_motion_output_t;
+*/
+
+
+/* UF_PARAM_MOTION_OUTPUT_TYPE
+ *
+ *   Description:
+ *     Type of motions output to the tool path
+ *
+ *   Type: UF_PARAM_type_int
+ *
+ *   Name: Motion Output Type
+ *  Variable Name: <prefix>_motion_output_type
+ *
+ *   Possible Values: UF_PARAM_motion_output_t
+ *
+ *
+ */
+//#define UF_PARAM_MOTION_OUTPUT_TYPE   55  /* UF_PARAM_type_int */
+
+/* UF_PARAM_TURN_MACH_MOTION
+ *
+ *   Description:
+ *      This parameter controls whether motions are output as lines and arcs
+ *      or whether motions are only ouput as lines (linearization of arcs).
+ *
+ *   Type: UF_PARAM_type_int
+ *
+ *   Name: Machine Control Motion Output
+ *  Variable Name: <prefix>_machine_control_motion_output
+ *
+ *   Possible Values: 
+ *     0 = Linear output only
+ *     1 = Linear and circular motions output
+ *
+ * 
+ */
+#define UF_PARAM_TURN_MACH_MOTION   2680  /* UF_PARAM_type_int */
+
+
+#define UF_machining_operation_type             100
+#define    UF_mach_instanced_oper_subtype              1
+#define    UF_mach_orphan_oper_subtype                 2
+#define    UF_mach_oldopr_subtype                     10       /* Obsolete */
+#define    UF_mach_pocket_subtype                    110
+#define    UF_mach_surface_contour_subtype           210
+#define    UF_mach_vasc_subtype                      211
+#define    UF_mach_cavity_milling_subtype            260
+#define    UF_mach_face_milling_subtype              261
+#define    UF_mach_volumn_milling_subtype            262
+#define    UF_mach_zlevel_milling_subtype            263
+#define    UF_mach_fb_hole_milling_subtype           264
+#define    UF_mach_plunge_milling_subtype            265
+#define    UF_mach_turn_rough_subtype                510
+#define    UF_mach_turn_finish_subtype               520
+#define    UF_mach_turn_teachmode_subtype            530
+#define    UF_mach_turn_thread_subtype               540
+#define    UF_mach_turn_cdrill_subtype               550
+#define    UF_mach_turn_auxiliary_subtype            560
+#define    UF_mach_hole_making_subtype               600
+#define    UF_mach_wedm_subtype                      700
+#define    UF_mach_mill_ud_subtype                   800
+#define    UF_mach_mill_mc_subtype                  1100
+#define    UF_mach_lathe_mc_subtype                 1200
+#define    UF_mach_wedm_mc_subtype                  1300
+#define    UF_mach_lathe_ud_subtype                 1400
+#define    UF_mach_wedm_ud_subtype                  1500
+#define    UF_mach_mass_edit_subtype                1600
+

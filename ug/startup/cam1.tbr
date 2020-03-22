@@ -1,0 +1,18 @@
+! Menuitem for users
+!  12.31.01
+! Freeware - предполагает исходные тексты, но не всегда
+! Shareware - предполагает плату денег
+! Corporative version
+!      - значит все что вы создаете это ваше и вашего работодателя,
+!        если в трудовом не оговорено иначе
+
+TITLE Cam_OPU_(x32)
+
+VERSION 160
+
+BUTTON  Cam1
+LABEL   Меняет тип движения (линейные-круговые-сплайны) в операциях.
+ACTION  $UGII_VENDOR_DIR\application\opu_cam1.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_cam1.bmp
+
+!================================================================

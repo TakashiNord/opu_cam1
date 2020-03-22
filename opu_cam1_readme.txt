@@ -1,11 +1,8 @@
-# opu_cam1
- opu_cam1 - (Р»РёРЅРµР№РЅС‹Рµ-РєСЂСѓРіРѕРІС‹Рµ-СЃРїР»Р°Р№РЅС‹)
- 
- cam1
+cam1
 
 Purpose:
-  РџСЂРѕРіСЂР°РјРјР° РґР»СЏ РёР·РјРµРЅРµРЅРёСЏ РїР°СЂР°РјРµС‚СЂРѕРІ РѕРїРµСЂР°С†РёРё.
-  РњРµРЅСЏРµС‚ С‚РёРї РґРІРёР¶РµРЅРёСЏ (Р»РёРЅРµР№РЅС‹Рµ-РєСЂСѓРіРѕРІС‹Рµ-СЃРїР»Р°Р№РЅС‹).
+  Программа для изменения параметров операции.
+  Меняет тип движения (линейные-круговые-сплайны).
 
 Requirements for this package:
   UG V18/NX1/NX2/....
@@ -18,7 +15,7 @@ Restrictions:
   not
 
 Author:
-  Р§Р•
+  ЧЕ
 
 Quick installation:
    Move 'cam1.dll' to one of the following directories:
@@ -44,4 +41,3 @@ Copyright & remarks:
 
 History:
   12-May-2003: V1.0.0, Initial release V1.0, UG V18
-
